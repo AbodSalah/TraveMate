@@ -19,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Navigator.of(context).pushReplacement(PageRouteBuilder(
         pageBuilder: (_, __, ___) => Language(),
         transitionDuration: const Duration(
-          milliseconds: 2000,
+          milliseconds: 5000,
         ),
         transitionsBuilder: (
           _,
@@ -36,7 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   /// Set timer splash
   _timer() async {
-    return Timer(const Duration(milliseconds: 2300), _navigator);
+    return Timer(const Duration(milliseconds: 5000), _navigator);
   }
 
   @override

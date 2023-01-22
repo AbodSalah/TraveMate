@@ -134,7 +134,7 @@ class _callCenterState extends State<callCenter> {
                             onsaved: (p0) {
                               return subjectController = p0!;
                             },
-                            titel: 'sub'.tr,
+                            titel: 'subject'.tr,
                           )
                         ],
                       ),
@@ -158,7 +158,7 @@ class _callCenterState extends State<callCenter> {
                             onsaved: (p0) {
                               return msgController = p0!;
                             },
-                            titel: 'mes'.tr,
+                            titel: 'message'.tr,
                           )
                         ],
                       ),

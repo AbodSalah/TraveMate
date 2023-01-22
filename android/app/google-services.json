@@ -1,35 +1,41 @@
 {
   "project_info": {
-    "project_number": "648212581397",
-    "firebase_url": "https://project-dbeb2-default-rtdb.firebaseio.com",
-    "project_id": "project-dbeb2",
-    "storage_bucket": "project-dbeb2.appspot.com"
+    "project_number": "38567663973",
+    "project_id": "hotel-2002",
+    "storage_bucket": "hotel-2002.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:648212581397:android:13d96ff738230efe0b521c",
+        "mobilesdk_app_id": "1:38567663973:android:0ee91f09dc42a3b42c298c",
         "android_client_info": {
           "package_name": "com.mhma.hotelbooking"
         }
       },
       "oauth_client": [
         {
-          "client_id": "648212581397-16ibic5uvdqd30tn0td2agclmsrjehd2.apps.googleusercontent.com",
+          "client_id": "38567663973-qjeg6umgs4k32uu48ei7986sof6vfc66.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDq3SwD_YURyU9JoNnmWVPNt0HbZoFRLhE"
+          "current_key": "AIzaSyCPS92gyKpJTJZlZLLQzwNFfa7ByfGbskY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "648212581397-16ibic5uvdqd30tn0td2agclmsrjehd2.apps.googleusercontent.com",
+              "client_id": "38567663973-qjeg6umgs4k32uu48ei7986sof6vfc66.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "38567663973-cm2a7d74ajvpfspeop0mra1sp3n4n55c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mhma.hotelbooking"
+              }
             }
           ]
         }

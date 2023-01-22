@@ -7,6 +7,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:hotelbooking/Library/SupportingLibrary/Ratting/Rating.dart';
 import 'package:hotelbooking/UI/B1_Home/Hotel/Hotel_Detail_Concept_1/maped.dart';
 import 'package:hotelbooking/UI/B1_Home/Hotel/Hotel_Detail_Concept_1/payment_webview.dart';
+import 'package:hotelbooking/UI/B1_Home/Hotel/Hotel_Detail_Concept_1/payment_webview2.dart';
 import 'package:hotelbooking/UI/B1_Home/Hotel/Hotel_Detail_Concept_1/reviewDetail1.dart';
 import 'package:hotelbooking/UI/B1_Home/Hotel/Hotel_Detail_Concept_2/maps.dart';
 import 'package:hotelbooking/UI/handlingView/handlingview.dart';
@@ -636,10 +637,10 @@ class RelatedRoomsWidget extends StatelessWidget {
                                                     sharedPreferences.setString(
                                                       'roomId',
                                                       controller.infoRoomModel!
-                                                          .room!.sId
+                                                          .room!.roomNumbers![0]!.sId
                                                           .toString(),
                                                     );
-                                                    Get.to(PaymentWebView());
+                                                    Get.to(PaymentWebView2());
                                                     Get.delete<
                                                         GetInfoRoomController>();
                                                   }
@@ -659,9 +660,9 @@ class RelatedRoomsWidget extends StatelessWidget {
                                                   sharedPreferences.setString(
                                                       'roomId',
                                                       controller.infoRoomModel!
-                                                          .room!.sId
+                                                          .room!.roomNumbers![0]!.sId
                                                           .toString());
-                                                  Get.to(PaymentWebView());
+                                                  Get.to(PaymentWebView2());
                                                   Get.delete<
                                                       GetInfoRoomController>();
                                                 } else {

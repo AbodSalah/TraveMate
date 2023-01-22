@@ -3,16 +3,16 @@ import 'package:hotelbooking/data/functions_response/get_info_room.dart';
 import 'package:hotelbooking/main.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-class PaymentWebView extends StatefulWidget {
-  const PaymentWebView({
+class PaymentWebView2 extends StatefulWidget {
+  const PaymentWebView2({
     super.key,
   });
 
   @override
-  State<PaymentWebView> createState() => _PaymentWebViewState();
+  State<PaymentWebView2> createState() => _PaymentWebView2State();
 }
 
-class _PaymentWebViewState extends State<PaymentWebView> {
+class _PaymentWebView2State extends State<PaymentWebView2> {
 
   var controller = WebViewController()
     ..setJavaScriptMode(JavaScriptMode.unrestricted)
@@ -52,7 +52,7 @@ class _PaymentWebViewState extends State<PaymentWebView> {
       ),
     )
     ..loadRequest(Uri.parse(
-        'https://hotel-booking-8qw1.onrender.com/api/users/placePay?price=${sharedPreferences.getString('price')}&userId=${sharedPreferences.getString('id')}&roomId=${sharedPreferences.getString('roomId')}'));
+        'https://hotel-booking-8qw1.onrender.com/api/users/RoomPay?price=${sharedPreferences.getString('price')}&userId=${sharedPreferences.getString('id')}&roomId=${sharedPreferences.getString('roomId')}'));
   @override
   Widget build(BuildContext context) {
     return Scaffold(
